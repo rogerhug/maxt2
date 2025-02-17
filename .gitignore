@@ -1,37 +1,47 @@
-/export*
-/build*
+# OS files
+.DS_Store
+*.orig
+*.bak
+*~
+*.tmp
+*.rej
+\#*\#
+*.sublime-workspace
 
-*.meta
+# Xcode
+xcuserdata/
+build
+CoreAudioUtilityClasses
+CoreAudioUtilityClasses.zip
 
-# Prerequisites
-*.d
+# Unity
+Library
+bin
+obj
+UserSettings/
+Temp/
+Logs/
+*.orig.*
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# VS
+*.csproj.user
+!PlatformDependent/WinRT/Tests/VSUnitTests/Assembly-CSharp/Assembly-CSharp.csproj.user
+*.suo
+*.vcxproj.user
+.vs/
 
-# Precompiled Headers
-*.gch
-*.pch
+# VS intellisense files next to solution file for C++ projects - global configuration should perhaps place it elsewhere
+*.sdf
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# temporary locking file for solution access
+*.opensdf
 
-# Fortran module files
-*.mod
-*.smod
+# resharper
+*.sln.DotSettings.user
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# MonoDevelop
+*.userprefs
 
-# Executables
-*.exe
-*.out
-*.app
+# ctags:
+.tags
+.tags_sorted_by_file
